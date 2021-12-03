@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.scss";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
+import { Route, BrowserRouter } from "react-router-dom";
 import ErrorPopup from './components/error_pop_up/ErrorPopup';
 import LoginForm from "./pages/forms/LoginForm";
 import ForgotPassword from "./pages/forms/forgotPassword";
@@ -66,7 +66,7 @@ export default class App extends Component {
         >
         <BrowserRouter>
           <ErrorPopup error={this.state.error} clearError={this.clearError} />
-          <Switch>
+          {/* <Switch> */}
           <Route
               exact
               path="/"
@@ -193,7 +193,7 @@ export default class App extends Component {
                 </div>
               )}
             />
-          </Switch>
+          {/* </Switch> */}
         </BrowserRouter>
         </div>
       </div>

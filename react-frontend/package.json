@@ -3,23 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
-    "@fortawesome/free-solid-svg-icons": "^5.14.0",
-    "@fortawesome/react-fontawesome": "^0.1.11",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "axios": "^0.20.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.24.0",
     "axios-progress-bar": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "node-sass": "^4.14.1",
-    "qrcode.react": "^1.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "node-sass": "^6.0.1",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-particles-js": "^3.4.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "4.0.3",
     "react-vis": "^1.11.7"
   },
   "scripts": {
@@ -51,6 +51,6 @@
     ]
   },
   "devDependencies": {
-    "husky": "^4.3.0"
+    "husky": "^7.0.4"
   }
 }
